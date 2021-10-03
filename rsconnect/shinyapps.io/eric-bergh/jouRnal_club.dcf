@@ -1,0 +1,12 @@
+name: jouRnal_club
+title: jouRnal_club
+username:
+account: eric-bergh
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4785636
+bundleId: 5099456
+url: https://eric-bergh.shinyapps.io/jouRnal_club/
+when: 1633270082.61314
+asMultiple: FALSE
+asStatic: FALSE
