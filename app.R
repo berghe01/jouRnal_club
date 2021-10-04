@@ -108,7 +108,7 @@ shinyApp(
                                               "with any questions/suggestions.", 
                                               tags$br(), 
                                               "The code for this app can be found ",
-                                              tags$a(href = "https://github.com/berghe01/allo_wheel", "here. "), 
+                                              tags$a(href = "https://github.com/berghe01/jouRnal_club/blob/main/app.R", "here. "), 
                                               tags$br(), 
                                               tags$br(), 
                                               "This app was created for students, researchers and medical professionals and is NOT intended to be used as medical advice.",
