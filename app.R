@@ -203,7 +203,7 @@ shinyApp(
     
     keys <- reactive({
       
-      raw() %>%
+      keys <- raw() %>%
         select(keywords) %>%
         tidyr::separate_rows(keywords, sep = ", ") %>%
         distinct() %>%
@@ -243,7 +243,7 @@ shinyApp(
       selectizeInput("pick_keys", 
                      "Select keywords",
                      width = '450px',
-                     choices = keys(), 
+                     choices = keys()$keywords, 
                      selected = NULL, 
                      multiple = TRUE,
                      options = NULL)
