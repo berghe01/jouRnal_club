@@ -295,7 +295,7 @@ shinyApp(
         # can't get rid of entirely, otherwise code for GT table will not work, even if emptly footnote or comment column, ok to pass to GT
         
         pull_footnotes <- df %>%
-          map(~select_if(., str_detect(names(.), "footnote|comment")))
+          map(~select_if(., str_detect(names(.), "footnote|comment|statistic")))
         
         # remove all other columns which are completly empty (specifically, the additional study arm columns)
         
