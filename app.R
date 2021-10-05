@@ -101,7 +101,7 @@ shinyApp(
                                  tags$br(),
                                  "If you are interested in curating your own list of articles, simply follow the directions below to create a table in google sheets.",
                                  tags$br(),
-                                 "Then use the URL from your table to pull your own curated data into the app.", 
+                                 "Then, give public sharing access to your table, and copy the public 'share link' (see permissions section below) from your table to pull your own curated data into the app.", 
                                  tags$br()
                                )
                              )
