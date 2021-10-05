@@ -32,7 +32,7 @@ shinyApp(
                                       HTML(
                                         paste0(
                                           "This app presents only the most", tags$b(" CRITICAL"), 
-                                          " information from reviewed journal articles in easy-to-read ", tags$a(href='https://gt.rstudio.com/', "{gt}"), " tables.", 
+                                          " information from reviewed journal articles in easy-to-read ", tags$a(href='https://gt.rstudio.com/', "{gt}", target = "_blank"), " tables.", 
                                           tags$br(), 
                                           "Select ", 
                                           tags$b('keywords ', 
@@ -152,17 +152,17 @@ shinyApp(
                                  " in Houston, TX with interests in both fetal diseases and computer/data science.",
                                  tags$br(),
                                  "This web app was designed using the ", 
-                                 tags$a(href = "https://www.r-project.org/", "R"),  " programming language, ",
-                                 tags$a(href = "https://gt.rstudio.com/", "{gt}"),", ", 
-                                 tags$a(href = "https://googlesheets4.tidyverse.org/", "{googlesheets4}"), " packages and the ", 
-                                 tags$a(href = "https://shiny.rstudio.com/", "{shiny}"), " web framework.", 
+                                 tags$a(href = "https://www.r-project.org/", "R", target = "_blank"),  " programming language, ",
+                                 tags$a(href = "https://gt.rstudio.com/", "{gt}", target = "_blank"),", ", 
+                                 tags$a(href = "https://googlesheets4.tidyverse.org/", "{googlesheets4}", target = "_blank"), " packages and the ", 
+                                 tags$a(href = "https://shiny.rstudio.com/", "{shiny}", target = "_blank"), " web framework.", 
                                  tags$br(), 
                                  "Please do not hesitate to contact ",
-                                 tags$a(href = "https://twitter.com/ericberghMD", "@ericberghMD "),
+                                 tags$a(href = "https://twitter.com/ericberghMD", "@ericberghMD ", target = "_blank"),
                                  "with any questions/suggestions.", 
                                  tags$br(), 
                                  "The code for this app can be found ",
-                                 tags$a(href = "https://github.com/berghe01/jouRnal_club/blob/main/app.R", "here. "), 
+                                 tags$a(href = "https://github.com/berghe01/jouRnal_club/blob/main/app.R", "here. ", target = "_blank"), 
                                  tags$br() 
                                )
                              )
